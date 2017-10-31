@@ -1,0 +1,16 @@
+PODS:
+  - FRCheckBox (0.1.0)
+
+DEPENDENCIES:
+  - FRCheckBox (from `../`)
+
+EXTERNAL SOURCES:
+  FRCheckBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FRCheckBox: e503c567b91ed5fef07f724cfabb5ea26eb41124
+
+PODFILE CHECKSUM: aa9d4f97c8f52d1deb7190aa7e3041666eeb9374
+
+COCOAPODS: 1.2.1

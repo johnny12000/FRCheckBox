@@ -1,0 +1,6 @@
+framework module FRCheckBox {
+  umbrella header "FRCheckBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

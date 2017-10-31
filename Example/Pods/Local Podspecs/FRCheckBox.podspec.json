@@ -1,0 +1,22 @@
+{
+  "name": "FRCheckBox",
+  "version": "0.1.0",
+  "summary": "A short description of FRCheckBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/johnny12000/FRCheckBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "johnny12000": "ristic.nikola@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/johnny12000/FRCheckBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FRCheckBox/Classes/**/*"
+}
