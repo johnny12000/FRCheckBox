@@ -10,7 +10,7 @@
 		37072BBDBB15515149137E423564B1DA /* Pods-FRCheckBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F28982B5556382BFFC7462D9C6245BBA /* Pods-FRCheckBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EA5666FCF8824C56D659AA7E39E0988 /* FRCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D0C37FABBB52B5B80C4C1D4508D75 /* FRCheckBox-dummy.m */; };
 		4BB6655EF748D8C2993874A1A3AC5410 /* FRCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1D9DC4C59057943033163570D029D7 /* FRCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89B40B351727A0018E52A8B5219DEA41 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274766CAC88C23A4F2DD345D6FCCEE0 /* ReplaceMe.swift */; };
+		89B40B351727A0018E52A8B5219DEA41 /* FRCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274766CAC88C23A4F2DD345D6FCCEE0 /* FRCheckBox.swift */; };
 		90E9D28D0772EB095E9C8D11A94CA650 /* Pods-FRCheckBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE0F7DCCC6150191388DC43D67765BA /* Pods-FRCheckBox_Tests-dummy.m */; };
 		AEDFC09171163505F700F8D4A7C4A1EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DA155DB0D85226E2C7DFB3898206B0F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -27,20 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014B799F7867B4EDA6917A1C3F563B13 /* FRCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FRCheckBox.modulemap; sourceTree = "<group>"; };
+		014B799F7867B4EDA6917A1C3F563B13 /* FRCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FRCheckBox.modulemap; sourceTree = "<group>"; };
 		017C4752A89C4CCDF236D0D4CD17B700 /* FRCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRCheckBox.xcconfig; sourceTree = "<group>"; };
 		0923B473240FDA27C9C8F918D57DF043 /* Pods-FRCheckBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRCheckBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24A1BF163E1CB5D277A32B83BBADD761 /* FRCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FRCheckBox.framework; path = FRCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4049390D6858A8909C248B749A66EDD3 /* Pods-FRCheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FRCheckBox_Tests.modulemap"; sourceTree = "<group>"; };
+		24A1BF163E1CB5D277A32B83BBADD761 /* FRCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4049390D6858A8909C248B749A66EDD3 /* Pods-FRCheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FRCheckBox_Tests.modulemap"; sourceTree = "<group>"; };
 		4F1D9DC4C59057943033163570D029D7 /* FRCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRCheckBox-umbrella.h"; sourceTree = "<group>"; };
 		52D4FF6AB6D536B140B0BDF87F7415F5 /* Pods-FRCheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRCheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7749313B5730AD3DCF0F3496BD1E2116 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8274766CAC88C23A4F2DD345D6FCCEE0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		8274766CAC88C23A4F2DD345D6FCCEE0 /* FRCheckBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FRCheckBox.swift; sourceTree = "<group>"; };
 		88BD00BEBAF6C6D53CBBBD390413D990 /* Pods-FRCheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRCheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1F906C3639AE59648CD6D266FE3BB6 /* Pods-FRCheckBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRCheckBox_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99191F88C897D9A78BDAC65820D05A6D /* Pods_FRCheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FRCheckBox_Tests.framework; path = "Pods-FRCheckBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99191F88C897D9A78BDAC65820D05A6D /* Pods_FRCheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRCheckBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		993E08EE965798315FE7052FB693F176 /* FRCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRCheckBox-prefix.pch"; sourceTree = "<group>"; };
 		A0DB76269E195E0091E7C18BB7CE38D8 /* Pods-FRCheckBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRCheckBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AFEA76A7A2A563CCF3A7AAD4AE5F3A93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,16 +83,14 @@
 			children = (
 				30B5997FC08FF832EFE19EF08F39BE41 /* Classes */,
 			);
-			name = FRCheckBox;
 			path = FRCheckBox;
 			sourceTree = "<group>";
 		};
 		30B5997FC08FF832EFE19EF08F39BE41 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8274766CAC88C23A4F2DD345D6FCCEE0 /* ReplaceMe.swift */,
+				8274766CAC88C23A4F2DD345D6FCCEE0 /* FRCheckBox.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -272,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA5666FCF8824C56D659AA7E39E0988 /* FRCheckBox-dummy.m in Sources */,
-				89B40B351727A0018E52A8B5219DEA41 /* ReplaceMe.swift in Sources */,
+				89B40B351727A0018E52A8B5219DEA41 /* FRCheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

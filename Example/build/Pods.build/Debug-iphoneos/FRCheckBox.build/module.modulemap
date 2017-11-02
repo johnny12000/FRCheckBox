@@ -1,0 +1,11 @@
+framework module FRCheckBox {
+  umbrella header "FRCheckBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FRCheckBox.Swift {
+    header "FRCheckBox-Swift.h"
+    requires objc
+}

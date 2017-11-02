@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/johnny/Projects/FRCheckBox/Example/build/Debug-iphoneos/FRCheckBox/FRCheckBox.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/johnny/Projects/FRCheckBox/Example/build/Pods.build/Debug-iphoneos/FRCheckBox.build/unextended-module.modulemap',
+    }]
+  }]
+}
