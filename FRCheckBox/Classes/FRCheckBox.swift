@@ -10,11 +10,27 @@ import UIKit
 @IBDesignable
 open class FRCheckBox: UIButton {
 
+    @IBInspectable public var activeColor: UIColor = UIColor.green {
+        didSet {
+            createImages()
+        }
+    }
+
+    @IBInspectable public var inactiveColor: UIColor = UIColor.white {
+        didSet {
+            createImages()
+        }
+    }
+
+    @IBInspectable public var thumbBackgroundColor: UIColor = UIColor.gray {
+        didSet {
+            createImages()
+        }
+    }
+
     // Images
-    let checkedImage = UIImage.createRadioButtonImage(CGSize(width: 100, height: 100),
-                                                      backgroundColor: UIColor.gray, dotColor: UIColor.green)
-    let uncheckedImage = UIImage.createRadioButtonImage(CGSize(width: 100, height: 100),
-                                                        backgroundColor: UIColor.gray, dotColor: UIColor.white)
+    var checkedImage: UIImage!
+    var uncheckedImage: UIImage!
 
     // Bool property
     public var isChecked: Bool = false {
@@ -28,6 +44,14 @@ open class FRCheckBox: UIButton {
         self.imageView?.backgroundColor = UIColor.clear
         self.addTarget(self, action: #selector(buttonClicked(_:)), for: UIControlEvents.touchUpInside)
         self.isChecked = false
+        createImages()
+    }
+
+    func createImages() {
+        checkedImage = UIImage.createRadioButtonImage(CGSize(width: 100, height: 100),
+                                                      backgroundColor: thumbBackgroundColor, dotColor: activeColor)
+        uncheckedImage = UIImage.createRadioButtonImage(CGSize(width: 100, height: 100),
+                                                        backgroundColor: thumbBackgroundColor, dotColor: inactiveColor)
     }
 
     @objc func buttonClicked(_ sender: UIButton) {
