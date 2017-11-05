@@ -65,13 +65,8 @@ open class FRCheckBox: UIButton {
     }
 
     override open func prepareForInterfaceBuilder() {
-        if isChecked == true {
-            self.setImage(checkedImage, for: UIControlState())
-        } else {
-            self.setImage(uncheckedImage, for: UIControlState())
-        }
+        setImage(isChecked ? checkedImage : uncheckedImage, for: .normal)
     }
-
 }
 
 extension UIImage {
