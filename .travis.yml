@@ -1,0 +1,11 @@
+language: objective-c
+osx_image: xcode9.1
+branches:
+  only:
+    - master
+matrix:
+  include:
+    - osx_image: xcode9
+      env: PLATFORM="iOS"
+xcode_workspace: Example/FRCheckBox.xcworkspace
+xcode_scheme: FRCheckBox-Example
