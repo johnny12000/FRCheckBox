@@ -8,7 +8,7 @@ env:
     - LANG=en_US.UTF-8
     - WORKSPACE=Example/FRCheckBox.xcworkspace
     - SCHEME="FRCheckBox-Example"
-    - DESTINATION="OS=11.2,name=iPhone X"
+    - DESTINATION="OS=11.1,name=iPhone X"
 script:
   - set -o pipefail
   - xcodebuild -version
