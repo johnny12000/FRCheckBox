@@ -3,9 +3,14 @@ osx_image: xcode9.1
 branches:
   only:
     - master
-matrix:
-  include:
-    - osx_image: xcode9
-      env: PLATFORM="iOS"
-xcode_workspace: Example/FRCheckBox.xcworkspace
-xcode_scheme: FRCheckBox-Example
+env:
+  global:
+    - LANG=en_US.UTF-8
+    - WORKSPACE=Example/FRCheckBox.xcworkspace
+    - SCHEME="FRCheckBox-Example"
+    - DESTINATION="OS=11.2,name=iPhone X"
+script:
+  - set -o pipefail
+  - xcodebuild -version
+  - xcodebuild -showsdks
+  - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty;
